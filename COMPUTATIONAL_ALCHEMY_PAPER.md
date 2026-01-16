@@ -2,7 +2,8 @@
 
 **Author:** Dionte Robinson  
 **Date:** January 16, 2026  
-**Status:** Draft for Review
+**Status:** Draft for Review  
+**Repository:** https://github.com/RobinsonDionte40hz/elements
 
 ---
 
@@ -517,8 +518,20 @@ All elemental data from **NIST Standard Reference Database** and **CRC Handbook 
 - **Toxicity correlation:** Qualitative analysis of substitution mechanisms
 
 ### 7.3 Code Availability
-Analysis code available at: `element_framework.py`  
-All calculations reproducible with Python 3.x and NumPy.
+Complete implementation available at: https://github.com/RobinsonDionte40hz/elements
+
+Files:
+- `element_framework.py` — Complete Python implementation (640 lines)
+- `README.md` — Usage examples and quick start guide
+- `.github/copilot-instructions.md` — Development guidelines
+
+All calculations reproducible with Python 3.8+ and NumPy. Install and run:
+```bash
+git clone https://github.com/RobinsonDionte40hz/elements.git
+cd elements
+pip install numpy
+python element_framework.py
+```
 
 ---
 
